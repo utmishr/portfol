@@ -18,10 +18,10 @@ ReactDOM.render(
   <Router>
     <Navigation />
     <Routes>
-      <Route path="/portfolio" element={<Home />} />
-      <Route path="/portfolio/about" element={<About />} />
-      <Route path="/portfolio/contact" element={<Contact />} />
-      <Route path="/portfolio/blog" element={<Blog />}>
+      <Route path="/portfol" element={<Home />} />
+      <Route path="/portfol/about" element={<About />} />
+      <Route path="/portfol/contact" element={<Contact />} />
+      <Route path="/portfol/blog" element={<Blog />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />
       </Route>

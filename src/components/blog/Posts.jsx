@@ -8,7 +8,7 @@ function Posts() {
       <ul className="case_list">
       {Object.entries(data).map(([postSlug, {heading, description}]) => (
         <li key={postSlug}>
-        <Link to={`/portfolio/blog/${postSlug}`}>
+        <Link to={`/portfol/blog/${postSlug}`}>
           <h3>{heading}</h3>
           <p><h6>{description}</h6></p>
           <p><h7>Let’s kick off our journey by understanding how the internet is like a giant puzzle, connecting different pieces to create a seamless experience.</h7></p>
